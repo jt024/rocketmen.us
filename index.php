@@ -50,7 +50,7 @@
 <div id="content">
 
 <br><br><br><br><br>
-<center><img src="rocketl.png">page under construction.<img src="rocketr.png"></center>
+<center><img src="graphics/rocketl.png">page under construction.<img src="graphics/rocketr.png"></center>
 <br><br>
 
 
