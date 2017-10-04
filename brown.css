@@ -1,0 +1,164 @@
+/***********************************************************
+***  Design Exercise #5
+***  Gabriel Brown
+***********************************************************
+*** Purpose: Summary and reaction to websites
+***
+***********************************************************
+*** Date: September 27th 2016
+***********************************************************
+*** List of changes with dates.
+*** 1. 10/04/2017 11:27am - added .menu class for site 
+*** 
+***
+***
+*** 
+************************************************************/
+body{
+ padding:0px;
+ margin:0px 0px;
+ background: linear-gradient(90deg, black 305px, #0B3D91 505px, #7E0C0F 520px,#FFFFFF 216px, rgba(255,255,255,0) 217px) repeat-y,
+ linear-gradient(270deg, black 305px, #0B3D91 505px, #7E0C0F 520px,#FFFFFF 521px) repeat-y;
+ background-size: 1920px 1px, 1920px 1px;
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+ background-position: top center, top center;
+ min-width: 880px;
+}
+
+.stars {
+overflow: hidden;
+  position: fixed;
+
+background-image: 
+    radial-gradient(1px 1px at 305px 30px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 250px 10px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 240px 70px, #ccc, rgba(0,0,0,0)),
+    radial-gradient(3px 3px at 300px 160px, #999, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 250px 40px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 210px 190px, #fff, rgba(0,0,0,0)),
+    radial-gradient(3px 3px at 230px 250px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 230px 230px, #fff, rgba(0,0,0,0)),
+    radial-gradient(3px 3px at 200px 270px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 200px 270px, #ddd, rgba(0,0,0,0)),
+
+
+    radial-gradient(1px 1px at 20px 30px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 150px 10px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, #ccc, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 50px 160px, #999, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+    radial-gradient(3px 3px at 90px 40px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 200px 80px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 190px 120px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 190px 120px, #ddd, rgba(0,0,0,0)),
+
+    radial-gradient(1px 1px at 90px 180px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 50px 160px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 140px 220px, #ccc, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 150px 290px, #999, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 10px 190px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 10px 190px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 130px 230px, #fff, rgba(0,0,0,0)),
+    radial-gradient(3px 3px at 200px 230px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 20px 270px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 20px 270px, #ddd, rgba(0,0,0,0));
+  background-repeat: repeat-y;
+  background-size: 310px 300px;
+  height:1170px;
+  width:310px;
+}
+
+#sleft {
+    left:50%;
+    margin-left: -775px;;
+	
+}
+
+#sright {
+	left:50%;
+	margin-left: 454px;
+}
+#s1left {
+    left:50%;
+    margin-left: -775px;;
+    margin-top:-45px;
+        -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#s1right {
+    left:50%;
+    margin-left: 474px;
+    margin-top:-95px;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+hr{
+ color: lime;
+ background-color: #555555;
+ border: none;
+ height: 9px;
+}
+
+ol.Questions li {
+ font-size: 1.3em;
+ font-weight: bolder;
+ }
+
+ ol.Questions ol.Reasons li {
+ font-size: 1em;
+ font-weight: normal;
+ color: #303030;
+}
+
+.suck {
+
+    columns: 300px 2;
+    column-gap: 40px;
+    -moz-columns: 300px 2;
+    -moz-column-gap: 40px;
+ 
+}
+
+#content {
+ 
+ position: absolute;
+ top:100px;
+ left: 50%;
+ width:750px;
+ margin-top: -20px; 
+ margin-left: -370px; 
+ color: #000000;
+}
+
+h1 {
+ color: #09347B;
+}
+
+p {
+ color: #303030;
+}
+a {
+ color: #303030;
+}
+
+.menu {
+	background-color:black;
+	color:white;
+        border:solid;
+        border-width:1px;
+        border-color:blue;
+	display: block;
+	width:125px;
+	list-style-type:square;
+}
